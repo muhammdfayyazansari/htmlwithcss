@@ -1,0 +1,219 @@
+@font-face {
+    font-family: robotoRegular;
+    src: url(./font/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: robotoBlack;
+    src: url(./font/Roboto-Black.ttf);
+}
+*{
+    font-family: robotoRegular,Helvetica,Arial,sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+
+
+}
+.under_navbar{
+    width: 88%;
+    padding: 10px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+
+}
+.jobs a{
+    font-size: 15px;
+text-decoration: none;
+margin: 0px 20px;
+color:#677B8C;
+}
+.jobs a:hover{
+    cursor: pointer;
+    color: #2786c0;
+}
+.jobs{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+.signup{
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+}
+.signup a{
+    font-size: 15px;
+    color:#677B8C;
+    text-decoration: none;
+    margin: 0px 20px;
+}
+.signup a:hover{
+    cursor: pointer;
+    color: #2786c0;
+}
+
+.project{
+    background-color: #f20091;
+    padding: 10px 15px;
+    margin: 0px 20px;
+    font-weight: bold;
+    color: #ffffff;
+    border: none;
+}
+.project:hover{
+    background-color: #db6bae;
+    cursor: pointer;
+}
+.find_jobs{
+    padding: 10px;
+   background-color: #0E1724;
+}
+.under_find_jobs{
+    width: 88%;
+    /* background-color: #161E2C; */
+    padding: 5px 10px;
+    margin: 0px auto;
+}
+.under_find_jobs a{
+    color:#D7D8DA;
+    font-size: 15px;
+    text-decoration: none;
+    margin: 0px 15px;
+}
+.large_image_div{
+    background-image: url(https://images.unsplash.com/photo-1487537708572-3c850b5e856e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=872&q=80);
+    box-sizing: border-box;
+    width: 100%;
+    background-size: cover;
+    height: 84vh;
+    background-repeat: no-repeat;
+    padding: 10px 85px;
+    display: flex;
+    
+
+}
+.under_large_image_div{
+    /* background-color: #0E1724; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+
+}
+.large_image_div h1{
+    color: #ffffff  ;
+    font-size: 50px;
+}
+.large_image_div h3{
+    color: #ffffff;
+    font-size: 20px;
+}
+.hire_freelancer{
+padding:15px 30px;
+background-color: #f20091;
+color: #ffffff;
+border: none;
+font-size: larger;
+font-weight: bolder;
+margin-right: 10px;
+transition: ease 0.3s;
+}
+.hire_freelancer:hover{
+    background-color: #ed5eb4;
+    cursor: pointer;
+}
+.earn_money{
+    padding:15px 30px;
+    border: 1px solid #ffffff;
+    outline: 1px solid #ffffff;
+    background-color: transparent;
+    color: #ffffff;
+    border: none;
+    font-size: larger;
+    font-weight: bolder;
+}
+.earn_money:hover{
+    cursor: pointer;
+    background-color: #fefefe4a;
+}
+.brands{
+    /* background-color: #2786c0; */
+    margin: 0px auto;
+    padding: 30px 0px;
+    width: 88%;
+    border-bottom: #dbdbdb 1px solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.brands img{
+    height: 40px;
+}
+.need{
+    padding: 70px 0px;
+    margin: 0px auto;
+    width: 88%;
+}
+.main_job_div{
+    width: 88%;
+    margin: 0px auto;
+    padding-bottom: 100px;
+    border-bottom: solid 1px #dbdbdb;
+    display: flex;
+    flex-direction: row;
+}
+.post_job{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+.post_job img{
+    width: 64px;
+    height: 64px;
+    margin-right: 10px;
+    
+}
+.under_post_job{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+.under_post_job h3{
+    font-size: x-large;
+}
+.main_job_div p{
+    font-family: robotoRegular,Helvetica,Arial,sans-serif;
+    padding: 5px;
+word-spacing: 2px;
+}
+.last_div{
+    width: 88%;
+    margin: 0px auto;
+    padding: 80px 0px;
+}
+.last_div h1{
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+.image_div{
+    width: 88%;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.logo_design{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.logo_design h2{
+    margin-top: 15px;
+}

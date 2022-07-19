@@ -1,0 +1,55 @@
+body{
+    background-color: aqua;
+}
+form{
+    width: 35%;
+    margin: 20px auto;
+    padding: 0px 0px 20px 0px;
+    background-color: #ffffff;
+    align-items: ;
+    
+}
+h1{
+    text-align: center;
+    color: #ffffff;
+    background-color: blue;
+}
+.firstName div{
+display: inline-block;
+}
+.button_div{
+    text-align: center;
+}
+.button_div button{
+    margin: 5px 20px;
+}
+input{
+    height: 30px;
+    margin-right: 20px;
+}
+label{
+    margin-left: 20px;
+}
+.register{
+    width: 100%;
+    text-align: center;
+}
+.register button{
+    display: inline-block;
+    margin: 0px auto;
+    width: 80%;
+    text-align: center;
+    height: 40px;
+    border: none;
+    color: #ffffff;
+    background-color:blue ;
+}
+.male, .female{
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+}
+.male{
+    background-color: blue;
+    color: #ffffff;
+}

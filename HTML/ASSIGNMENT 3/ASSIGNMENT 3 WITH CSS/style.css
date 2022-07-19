@@ -1,0 +1,163 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    background-color: #202020;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 10px 0 0 0;
+    /* background-color:   aqua; */
+    margin: 0%;
+    
+}
+.inputspan{
+    padding: 8px 0px 5px 0px;
+    outline: 1px;
+    border-color: #202020;
+    border: 1px;
+    background-color: #202020;
+    
+}
+.inputcss{
+    height: 38px;
+    padding: 5px;
+    margin: 0px 0px 0px 0px;
+    width: 500px;
+    background-color: #000000;  
+    color: white;
+    border: 0;
+    font-size: 16px;
+    
+}
+
+.inputcss:focus{
+    height: 38px;
+    padding: 10px;
+    margin: 0px 2px 0px 0px;
+    width: 600px;    
+    outline: 2px;
+    box-shadow: 0 0 0 0.1rem rgba(0,123,255,.25);
+    font-size: 17px;
+}
+.youtube_button{
+    width: 100%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: stretch;
+    align-items: flex-end;
+    }
+.buttons{
+        /* background-color: red; */
+        border-style: solid;
+        border-color: #ffffff transparent #ffffff transparent;
+        border-width: thin; 
+        padding:10px 8px 10px 8px;
+    }
+.buttons button{
+        margin: 0px 4px ;
+        /* padding:10px 6px 10px 6px; */
+        padding: 10px 11px;
+        /* padding: 8px; */
+        background-color: #474747;
+        color: #ffffff;
+        border: 0px;
+        border-radius: 10px;
+        font-size: 12px;
+        transition: 0.5s;
+    }
+.buttons button:hover{
+    cursor: pointer;
+    background-color: #4b555f;
+    padding: 10px 19px;
+    margin: 0px;
+}
+.home_list{
+    display: flex;
+    justify-content:end;
+    align-items: flex-end;
+    height: 100%;
+    width: 100%;
+    padding:5px 0px 0px 0px;
+}
+.unorder_list {
+    /* background-color: blue; */
+    width: 240px;
+    padding: 0;
+    margin: 0px;   
+}
+.unorder_list ul{
+    list-style-type: none; 
+
+}
+.list_anchor{
+    display: block;
+    text-decoration: none;
+    padding:15px 95px 15px 20px;
+    color: #ffffff;
+    font-size: 15px;
+    transition: 0.5s;  
+}
+.list_anchor:hover{
+    display: block;
+    text-decoration: none;
+    background-color: #474747;
+    color: #ffffff;
+    /* border: #ffffff solid 2px; */
+    
+}
+.list_span{
+    
+    margin: 0px 20px 0px 0px;
+}
+.last_div{
+    display: flex;
+    justify-content: start;
+}
+.video_div{
+    width: 1100px;
+    background-color: #111111;
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: end;
+    padding: 20px 20px 0 0px;
+}
+
+.video_first{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+.video_first div{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 3px;
+}
+.video_second{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+.video_second div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0px 3px;
+}
+
+.video_first div:hover{
+cursor: pointer;
+margin:0px;
+width: 270px;
+height: 140px;
+}
+.video_second div:hover{
+    cursor: pointer;
+    margin:0px;
+    width: 270px;
+    height: 160px;
+    }
